@@ -1,8 +1,7 @@
 <div class="blue-bar"></div>
 <div class="container">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        {{-- <a class="navbar-brand" href="#">DC</a> --}}
-        <div class="logo">
+        <div class="logo pe-5">
             <img src="{{ Vite::asset('resources/assets/img/dc-logo.png') }}" alt="DC Logo">
         </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,7 +13,7 @@
                     <a class="nav-link" href="#">characters</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">comics</a>
+                    <a class="nav-link" href="{{ route('comics') }}">comics</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">movies</a>
